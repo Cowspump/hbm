@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модель Spline</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #FFECD1;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        spline-viewer {
+            width: 50%;
+            height: 80vh;
+        }
+
+        .text-container {
+            width: 40%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <h1>Привет, мир!</h1>
+        <p>Это 3D-модель из Spline.</p>
+    </div>
+    <spline-viewer url="https://prod.spline.design/HyW8AofJhaZLvJLD/scene.splinecode"></spline-viewer>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.72/build/spline-viewer.js"></script>
+</body>
+</html>
